@@ -1,4 +1,15 @@
-# React + Vite
+# React + Vite TimeTracker
+
+## link
+
+- [Live site](https://timetrakersim.netlify.app/)
+- [Repo Link](https://github.com/jeff20501/timeTraker)
+
+
+## ScreenShot
+![](./shots/Screenshot%202025-08-21%20at%2013-08-46%20Vite%20React.png)
+
+
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
