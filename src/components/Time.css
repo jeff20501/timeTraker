@@ -1,0 +1,47 @@
+.tabs{
+    background-color: var(--timeBg);
+    border-radius: 20px;
+    inline-size: 220px;
+    line-height: 40px;
+    z-index: 2;
+    transform: translateY(-35%);
+    padding: 30px;
+    transition: .2s;
+    line-height: 50px;
+
+}
+
+.BG{
+    background: var(--backgroundColor);
+    max-inline-size: 100%;
+    block-size: 50px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 40%;
+    z-index: -1;
+}
+
+.BG img{
+    max-inline-size: 80px;
+    transform: translateX(120px);
+}
+
+.tabs div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tabs h2{
+    font-size: 1.6rem;
+    letter-spacing: 3px;
+}
+
+.tabs:hover{
+    background-color: hsl(235, 25%, 49%);
+    cursor: pointer;
+}
+
+.prev{
+    color: var(--avatarBg);
+}
