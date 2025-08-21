@@ -9,6 +9,11 @@
     background-color: var(--avatarBg2);
     padding: 40px;
     border-radius: 20px;
+    @media(width<850px){
+        display: flex;
+        gap:20px;
+    }
+
 }
 
 .time{
@@ -17,6 +22,11 @@
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
     line-height: 40px;
+     @media(width<850px){
+        display: flex;
+        padding: 20px;
+        justify-content: space-between;
+    }
 }
 
 button{
@@ -28,7 +38,6 @@ button{
     font-family: var(--fontFamily);
     color: var(--fontColor);
     font-size: 1.2rem;
-
 }
 
 button:hover,

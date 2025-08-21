@@ -10,12 +10,15 @@ export function Daily(props){
                     <img src={props.pic} alt='image of activity'/>
             </section>
             <section className='tabs'>
-                <div>
+                <div className='title'>
                     <p>{props.title}</p>
                     <img src={elip}/>
                 </div>
-                <h2>{props.data.current}Hrs</h2>
-                <p className='prev'>Last week - {props.data.previous}</p>            
+                <div>
+                    <h2>{props.data.current}Hrs</h2>
+                    <p className='prev'>Yesterday - {props.data.previous}</p> 
+                </div>
+                            
             </section>            
         </article>
     )

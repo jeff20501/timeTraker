@@ -6,8 +6,10 @@ export function Nav(props){
             <section className='nav'>
                 <div className='avatar'>
                     <img src={avatar} alt="user's Profile image"/>
-                    <h3>Report for</h3>
-                    <p className='name'>Jeremy<br/>Robson</p>
+                    <div>                        
+                        <h3>Report for</h3>
+                        <p className='name'>Jeremy<br/>Robson</p>
+                    </div>                    
                 </div>
                 <div className='time'>
                     <button onClick={()=>props.changeTab('daily')}>Daily</button>
